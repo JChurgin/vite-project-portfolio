@@ -1,7 +1,7 @@
 {
   "name": "vite-project-protfolio",
-  "homepage": "https://JoshuaChurginProtfoli.com",
-  "private": true,
+  "homepage": "https://JChurgin.github.io/vite-project-protfolio",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
