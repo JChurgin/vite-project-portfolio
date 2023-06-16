@@ -3,7 +3,7 @@ import './nav.css';
 import { AiOutlineHome } from 'react-icons/ai'
 import { AiOutlineUser } from 'react-icons/ai'
 import { BiBook } from 'react-icons/bi'
-import { BsFileEarmarkCode } from 'react-icons/bs'
+import { BsFileEarmarkCode } from 'react-icons/Bs'
 import { BiMessageSquareDetail } from 'react-icons/bi'
 
 

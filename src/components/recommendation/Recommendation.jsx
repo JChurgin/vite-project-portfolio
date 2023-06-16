@@ -1,4 +1,3 @@
-import React from "react";
 import "./recommendation.css";
 import AVTR1 from "../../assets/TomSueApp.png";
 import AVTR2 from "../../assets/avatar1.jpg";
