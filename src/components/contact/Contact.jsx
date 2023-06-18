@@ -2,7 +2,7 @@ import React from 'react';
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { AiOutlineLinkedin } from 'react-icons/ai';
-import { BsWhatsapp } from 'react-icons/Bs';
+import { ImWhatsapp } from 'react-icons/im';
 
 
 const Contact = () => {
@@ -26,7 +26,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/joshua-churgin/" target='_blank'>Send a message</a>
           </article>
           <article className='contact__option'>
-            <BsWhatsapp className='contact__option-icon'/>
+            <ImWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h6>054-339-2927</h6>
             <a href=" https://wa.me/0543392927" target='_blank'>Send a message</a>

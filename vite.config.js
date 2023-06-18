@@ -6,7 +6,7 @@ export default defineConfig({
   base: "/vite-project-protfolio/",
   build: {
     rollupOptions: {
-      external: ['react-icons/Bs', 'react-icons']
+      external: ['react-icons']
     }
   }
 })
