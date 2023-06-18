@@ -1,3 +1,7 @@
+#experience {
+    height: 100vh;
+}
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -41,7 +45,7 @@
 }
 
 /* ================ media queries (large devices) ===================*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1300px) {
     #experience {
         height: 85vh;
     }
@@ -67,6 +71,10 @@
   /* ================ meadia queries (small devices) ===================*/
   
   @media screen and (max-width: 600px) {
+    h5 {
+        padding-top: 0;
+    }
+
     .experience__container {
         gap: 1rem;
     }

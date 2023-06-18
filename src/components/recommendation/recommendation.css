@@ -29,7 +29,7 @@
 }
 
 /* ================ media queries (large devices) ===================*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1300px) {
   #recommendation {
     padding-bottom: 7rem;
   }

@@ -3,6 +3,11 @@ header {
   overflow: hidden;
 }
 
+h5{
+  font-size: medium;
+  margin-top: 1rem;
+}
+
 .header__container {
   text-align: center;
   height: 100%;
@@ -25,7 +30,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 8rem;
 }
 
 .header__socials::after {
@@ -38,7 +43,7 @@ header {
 /*----------Me----------*/
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  width: 20rem;
   height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
@@ -52,28 +57,28 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  bottom: 11rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
 }
 
 /* ================ media queries (large devices) ===================*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1300px) {
   header {
     height: 100vh;
   }
 
   .cta {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     gap: 1.5rem;
   }
 
   .me {
-    width: 37rem;
-    height: 47rem;
-    left: calc(50% - 19rem);
-    margin-top: 3rem;
+    width: 27rem;
+    height: 38rem;
+    left: calc(50% - 14rem);
+    margin-top: 2rem;
     border-radius: 18rem 18rem 0 0;
     padding: 3rem 2rem 2rem 2rem;
   }
@@ -96,6 +101,31 @@ header {
   header {
     height: 68vh;
   }
+
+  .me {
+    margin-top: 2rem;
+  }
+
+  h5 {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .header__socials {
+    bottom: 10rem;
+    left: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .scroll__down {
+    bottom: 15rem;
+    right: 2rem;
+    font-size: 1.5rem;
+  }
 }
 
 /* ================ meadia queries (small devices) ===================*/
@@ -103,6 +133,24 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+  }
+
+  .me {
+    width: 15rem;
+    height: 20rem;
+    left: calc(50% - 7rem);
+    margin-top: 1rem;
+    border-radius: 18rem 18rem 0 0;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h5 {
+    padding-top: 1rem;
+    font-size: 1.2rem;
   }
 
   .header__socials,

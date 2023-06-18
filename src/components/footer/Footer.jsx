@@ -13,7 +13,7 @@ const Footer = () => {
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         {/* <li><a href="#services">Services</a></li> */}
-        <li><a href="#protfolio">Protfolio</a></li>
+        <li><a href="#protfolio">Portfolio</a></li>
         <li><a href="#recommendation">Recommendation</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Joshua churgin, All rights reserved.</small>
+        <small>&copy; Joshua Churgin, All rights reserved.</small>
       </div>
     </footer>
   )

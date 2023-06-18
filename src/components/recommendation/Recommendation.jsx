@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Tom Levi",
+    name: "Tom Lavi",
     review:
       "My name is Tom Lavi and I am proud to offer my recommendation of Joshua Churgin to whom I have personally known. Joshua worked as a full-stack developer intern at my company – SueApp LTD. A legal-tech data-driven smart-application for small claims filing. Joshua focused on building our website from scratch, including form building and responsive design During recent months with Joshua, I have experienced an individual who works hard, and carries himself in a polite, respectable manner. In addition, Joshua is a talented individual with innate capabilities who has always presented himself with level headedness and grace.",
   },

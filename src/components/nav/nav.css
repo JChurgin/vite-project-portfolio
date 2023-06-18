@@ -33,8 +33,24 @@ nav a.active {
 }
 
 /* ================ media queries (large devices) ===================*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1300px) {
     nav a {
         font-size: 2rem;
     }
 }
+
+/* ================ meadia queries (med devices) ===================*/
+@media screen and (max-width: 1024px) {
+    nav a {
+        font-size: 3rem;
+    }
+  }
+  
+  /* ================ meadia queries (small devices) ===================*/
+  
+  @media screen and (max-width: 600px) {
+    nav a {
+        font-size: 1rem;
+    }
+  }
+  

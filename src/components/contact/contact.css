@@ -58,7 +58,7 @@ textarea {
 /* ================ media queries (large devices) ===================*/
 @media screen and (min-width: 1025px) {
   h6{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -76,5 +76,9 @@ textarea {
     .container.contact__container {
         grid-template-columns: 1fr;
         width: var(--container-width-sm);
+    }
+
+    h6 {
+      font-size: 1rem;
     }
   }

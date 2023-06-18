@@ -61,15 +61,6 @@ h6 {
   font-weight: 500;
 }
 
-h5 {
-  font-size: 3rem;
-  padding-top: 2rem;
-}
-
-h1 {
-  font-size: 4rem;
-}
-
 section {
   margin-top: 8rem;
 }
@@ -146,6 +137,6 @@ img {
   }
 
   section > h2 {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }

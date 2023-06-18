@@ -1,6 +1,6 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
+  grid-template-columns: 35% 60%;
   gap: 15%;
 }
 
@@ -70,12 +70,16 @@
   color: var(--color-light);
 }
 
-/* ================ media queries (large devices) ===================*/
-@media screen and (min-width: 1025px) {
-  #about {
-    height: 100vh;
-  }
+#about p {
+  font-size: .9rem;
+}
 
+/* ================ media queries (large devices) ===================*/
+@media screen and (min-width: 1300px) {
+  #about p {
+    font-size: 1rem;
+  }
+  
   .about__me {
     border-radius: 3rem;
   }
@@ -88,7 +92,7 @@
   }
 
   .about__container {
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 }
 
@@ -98,12 +102,14 @@
     grid-template-columns: 1fr;
     gap: 0;
   }
+
   .about__me {
     width: 50%;
     margin: 2rem auto 4rem;
   }
+
   .about__content {
-    margin: 1rem auto 1.5rem;
+    margin: 2rem auto 1.5rem;
   }
 }
 
