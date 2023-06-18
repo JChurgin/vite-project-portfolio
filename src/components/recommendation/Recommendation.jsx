@@ -55,9 +55,9 @@ const Recommendation = () => {
       >
         {data.map(({ avatar, name, review }, index) => {
           return (
-            <SwiperSlide className="recommendation">
+            <SwiperSlide className="recommendation" key={index}>
               <div className="reco__avatar">
-                <img src={avatar} />
+                <img src={avatar} alt={`Avatar of ${name}`} />
               </div>
               <h5>{name}</h5>
               <small className="reco__review">{review}</small>

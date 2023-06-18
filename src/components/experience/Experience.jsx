@@ -1,5 +1,5 @@
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/Bs";
+import { AiFillPlusCircle } from "react-icons/ai";
 
 const Experience = () => {
   return (
@@ -12,70 +12,70 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Competent</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>React</h4>
                 <small className="text-light">Competent</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Competent</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Chakra UI</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Javascript</h4>
                 <small className="text-light">Competent</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Typescript</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Angular</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Vue</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Git</h4>
                 <small className="text-light">Competent</small>
@@ -88,48 +88,48 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Javascript</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Node.js</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>SQL</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>MongoDB</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Firebase</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Vercel</h4>
                 <small className="text-light">Advanced Beginner</small>
               </div>
             </article><article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
+              <AiFillPlusCircle className="experience__details-icon"/>
               <div>
                 <h4>Rest API</h4>
                 <small className="text-light">Advanced Beginner</small>
