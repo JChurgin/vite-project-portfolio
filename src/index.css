@@ -145,4 +145,8 @@ img {
   section > h2 {
     margin-top: 1rem;
   }
+
+  .btn-primary {
+    margin: 0 auto;
+  }
 }
