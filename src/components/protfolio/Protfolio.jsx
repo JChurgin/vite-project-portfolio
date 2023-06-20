@@ -55,7 +55,7 @@ const Protfolio = () => {
   return (
     <section id="protfolio">
       <h5>My Recent Work</h5>
-      <h2>Protfolio</h2>
+      <h2>Portfolio</h2>
 
       <div className="container protfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
